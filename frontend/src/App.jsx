@@ -37,7 +37,6 @@ function App() {
         path="/customize2"
         element={user ? <Customize2 /> : <Navigate to="/signup" />}
       />
-      
     </Routes>
   );
 }
